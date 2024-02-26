@@ -17,4 +17,6 @@ player one won, and the number of times player two won!
 Another note: The player can type 'help' to get instructions on how
 to play rock paper scissors and use this interface.
 
+One more crucial note: to play this game, type the command ruby main.rb to run the game! Once again, enjoy! :)
+
 Thanks for reading this, and enjoy!
