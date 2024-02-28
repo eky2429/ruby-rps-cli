@@ -1,4 +1,4 @@
 require "./rps"
 
-Game.new
-Game.startProgram()
+Game g = Game.new
+g.startProgram()
