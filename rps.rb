@@ -4,6 +4,7 @@ class Game
   attr_reader :scores
 
   def initialize()
+    @prev_move = ""
     @player_move = ""
     @computer_move = ""
     # About @scores:
@@ -29,7 +30,7 @@ class Game
     else 
       puts "Your win to lose ratio (times player won / times CPU won): #{(@scores[1].to_f / @scores[2]).round(2)}"
     end
-    puts "Your recent move: #{@player_move}"
+    puts "Your recent move: #{@prev_move}"
     puts "The CPU's recent move: #{@computer_move}"
   end
 
@@ -118,6 +119,9 @@ class Game
   def inputMove()
     puts ""
     puts "Player, type in your move: (type 'help' you need help)" #Asks player for input
+    if (@player_move == "rock" || @player_move == "paper" || @player_move == "scissors")
+      @prev_move = @player_move
+    end
     @player_move = gets.chomp() #Gets input
     puts ""
     verifyMove() #Verifies input
