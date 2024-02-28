@@ -10,13 +10,16 @@ After that, the computer (CPU) plays its move and depending on the moves made
 either the Player or the CPU win (or there is a tie)! After that, the user
 is given the option to play another round.
 
-Note: After each game, the program also shows
+After each game, the program also shows
 the number of game played, the number of times
-player one won, and the number of times player two won!
+player won, and the number of times the CPU won!
 
-Another note: The player can type 'help' to get instructions on how
+The player can also 'help' to get instructions on how
 to play rock paper scissors and use this interface.
 
-One more crucial note: to play this game, type the command ruby main.rb to run the game! Once again, enjoy! :)
+How to play or open this game:
+  1) Go to the command line
+  2) In the terminal, go to the same directory that main.rb is in
+  3) Type "Ruby main.rb" in the command line to run the game!
 
 Thanks for reading this, and enjoy!
